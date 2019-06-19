@@ -1,8 +1,0 @@
-{
-  "EDWP_REPORTING.EDWC_API_DB.src.cfg::synonyms.T_SYN": {
-    "target": {
-      "object": "STG_ASIA_CHURN",
-      "schema.configure": "SRV_EDWC_ACCOUNTMU.AccountMU-DB/schema"
-    }
-  }
-}

@@ -24,9 +24,3 @@ resources:
     properties:
       hdi-container-name: '${service-name}'
     type: com.sap.xs.hdi-container
-  - name: cross-container-service-AccountMU
-    parameters:
-      service-name: SRV_EDWC_ACCOUNTMU
-    properties:
-      AccountMU-service: '${service-name}'
-    type: org.cloudfoundry.existing-service

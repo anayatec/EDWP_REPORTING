@@ -3,75 +3,10 @@
 <descriptions defaultDescription="T_ASIA_CHURN"/>
 <localVariables/>
 <variableMappings/>
-<dataSources>
-  <DataSource id="T_ASIA_CHURN">
-    <resourceUri>T_ASIA_CHURN</resourceUri>
-  </DataSource>
-</dataSources>
+<dataSources/>
 <calculationViews/>
-<logicalModel id="T_ASIA_CHURN">
-  <attributes>
-    <attribute id="DW_ASIA_CHURN_PK" order="1" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="DW_ASIA_CHURN_PK"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="DW_ASIA_CHURN_PK"/>
-    </attribute>
-    <attribute id="COUNTRY" order="2" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="COUNTRY"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="COUNTRY"/>
-    </attribute>
-    <attribute id="OCN" order="3" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="OCN"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="OCN"/>
-    </attribute>
-    <attribute id="CUSTOMER_NAME" order="4" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="CUSTOMER_NAME"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="CUSTOMER_NAME"/>
-    </attribute>
-    <attribute id="D_AMT_IN_LC" order="5" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="D_AMT_IN_LC"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="D_AMT_IN_LC"/>
-    </attribute>
-    <attribute id="D_AMT_IN_EUR" order="6" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="D_AMT_IN_EUR"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="D_AMT_IN_EUR"/>
-    </attribute>
-    <attribute id="D_MONTH_START_DATE" order="7" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="D_MONTH_START_DATE"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="D_MONTH_START_DATE"/>
-    </attribute>
-    <attribute id="DIVISION" order="8" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="DIVISION"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="DIVISION"/>
-    </attribute>
-    <attribute id="LOB_2" order="9" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="LOB_2"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="LOB_2"/>
-    </attribute>
-    <attribute id="LOB_1" order="10" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="LOB_1"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="LOB_1"/>
-    </attribute>
-    <attribute id="REVENUE_TYPE_WATERFALL" order="11" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="REVENUE_TYPE_WATERFALL"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="REVENUE_TYPE_WATERFALL"/>
-    </attribute>
-    <attribute id="AE_NAME" order="12" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="AE_NAME"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="AE_NAME"/>
-    </attribute>
-    <attribute id="D_AMT_IN_CC" order="13" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="D_AMT_IN_CC"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="D_AMT_IN_CC"/>
-    </attribute>
-    <attribute id="DW_LOAD_DATE" order="14" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="DW_LOAD_DATE"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="DW_LOAD_DATE"/>
-    </attribute>
-    <attribute id="DW_CREATED_BY_ID" order="15" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="DW_CREATED_BY_ID"/>
-      <keyMapping columnObjectName="T_ASIA_CHURN" columnName="DW_CREATED_BY_ID"/>
-    </attribute>
-  </attributes>
+<logicalModel>
+  <attributes/>
   <calculatedAttributes/>
   <baseMeasures/>
   <calculatedMeasures/>
