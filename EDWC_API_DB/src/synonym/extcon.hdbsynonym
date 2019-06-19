@@ -1,0 +1,8 @@
+{
+  "T_ASIA_CHURN": {
+    "target": {
+      "object": "T_ASIA_CHURN",
+      "schema": "EDWC_ACCOUNTMU"
+    }
+  }
+}

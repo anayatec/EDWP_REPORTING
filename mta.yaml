@@ -1,0 +1,32 @@
+ID: EDWP_REPORTING
+_schema-version: '2.1'
+version: 0.0.1
+modules:
+  - name: EDWC_API_DB
+    type: hdb
+    path: EDWC_API_DB
+    requires:
+      - name: hdi_EDWC_API_DB
+        properties:
+          TARGET_CONTAINER: '~{hdi-container-name}'
+      - name: cross-container-service-AccountMU
+        group: SERVICE_REPLACEMENTS
+        properties:
+          key: AccountMU-DB
+          service: '~{AccountMU-service}'
+resources:
+  - name: hdi_EDWC_API_DB
+    parameters:
+      config:
+        schema: EDWC_API
+        makeUniqueName: false
+      service-name: SRV_EDWC_API
+    properties:
+      hdi-container-name: '${service-name}'
+    type: com.sap.xs.hdi-container
+  - name: cross-container-service-AccountMU
+    parameters:
+      service-name: SRV_EDWC_ACCOUNTMU
+    properties:
+      AccountMU-service: '${service-name}'
+    type: org.cloudfoundry.existing-service
